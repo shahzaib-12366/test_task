@@ -1,0 +1,82 @@
+.OurBlogContainer {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+margin-bottom: 20px;
+}
+
+.OurBlogContainerInner1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("../../assets/Image.jpg");
+  width: 944px;
+  height: 370px;
+  top: 90px;
+  opacity: 80%;
+  padding: 20px;
+}
+
+
+.OurBlogContainerInner2 {
+ 
+  background-color: #1E1B1B; 
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  
+ }
+
+.OurBlogContainerInner2_text{
+  margin: auto;
+  color: white;
+
+}
+.OurBlogContainerInner2_text h4{
+
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 700;
+  /* line-height: 56px; */
+  /* letter-spacing: -0.03em; */
+  text-align: left;
+  
+}
+
+.OurBlogContainerInner2_text p{
+font-family: Manrope;
+font-size: 15px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
+    .OurBlogContainerInner2_text h4 {
+      font-size: 24px;
+    }
+  
+    .OurBlogContainerInner2_text p {
+      font-size: 14px;
+    }
+    
+    /* Additional styles for smaller screens */
+    .OurBlogContainerInner1 {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+      background-image: none;
+    }
+  }
+  
+}  

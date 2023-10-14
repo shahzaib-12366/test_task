@@ -1,0 +1,123 @@
+/* NewCar.css */
+
+.NewCarContainerMain {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 433px;
+  top: 714px;
+  margin-bottom: 40px;
+  margin: 0px 10 20px 10;
+}
+
+.NewCarContainer {
+  background-color: #ffffff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  top: 830px;
+  left: 320px;
+}
+
+.NewCarContainerInner {
+  text-align: center;
+}
+
+.NewCarContainerLeftImg {
+  float: left;
+  /* width: 352.06px; */
+  /* height: 330px; */
+  /* top: 862px; */
+  /* left: 364px; */
+}
+.NewCarContainerRight {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.NewCarContainerRightDateViewFeature {
+  display: flex;
+}
+
+.NewCarContainerRightDate,
+.NewCarContainerRightView {
+  text-align: left;
+  flex: 1;
+  color: #939191;
+  font-size: 13px;
+}
+
+.NewCarContainerRightFeature {
+  text-align: right;
+  margin-top: 10px;
+  color: #ff6433;
+  size: 16px;
+}
+
+.NewCarContainerRightFeature {
+  /* text-align: left;  */
+}
+
+.NewCarText {
+  text-align: left;
+  margin-left: 5px;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.NewCarPara {
+  text-align: left;
+  margin-left: 5px;
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+span {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .NewCarContainerMain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .NewCarContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .NewCarContainerLeftImg {
+    float: none;
+  }
+  .NewCarContainerRightDateViewFeature,
+  .NewCarContainerRightDate,
+  .NewCarContainerRightView {
+    text-align: center;
+  }
+  .NewCarContainerRightFeature {
+    text-align: center;
+  }
+  .NewCarText,
+  .NewCarPara,
+  span {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .NewCarContainerMain {
+    height: auto;
+  }
+  .NewCarContainer {
+    width: 95%;
+  }
+}

@@ -1,0 +1,109 @@
+h1 {
+    font-size: 32px;
+    color: #333; 
+    text-align: center;
+    margin-top: 20px; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    text-decoration: underline; 
+  }
+  
+  .property-search-tool {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .search-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+    
+    input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      max-width: 800px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    
+    .search-button {
+      padding: 10px 20px;
+      background-color: yellowgreen;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+  
+   
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px; 
+    }
+    
+     ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      margin: 5px 0;
+      font-size: 16px;
+    } 
+    .results li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .results li input {
+      margin-right: 10px;
+    }
+    
+    .results li:hover {
+      background-color: #e5e5e5;
+    }
+    
+    .selected-properties,
+    .property-types {
+      margin-top: 20px;
+    }
+    
+    .selected-properties ul,
+    .property-types ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .selected-properties li,
+    .property-types li {
+      margin-bottom: 10px;
+      cursor: pointer;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .selected-properties li input {
+      margin-right: 10px;
+    }
+    
+    .selected-properties li:hover,
+    .property-types li:hover {
+      background-color: #e5e5e5;
+    }
+    
